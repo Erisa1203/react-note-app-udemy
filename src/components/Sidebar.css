@@ -1,0 +1,87 @@
+button {
+  background: none;
+  border: none;
+  color: #08c;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.app-sidebar-user {
+  margin: 0;
+  padding: 16px;
+}
+
+.app-sidebar {
+  width: 30%;
+  height: 100vh;
+  border-right: 1px solid #ddd;
+
+}
+
+.app-sidebar-header h1 {
+  margin: 0;
+}
+
+.app-sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px 25px;
+  
+}
+
+.app-sidebar-notes {
+  height: calc(100vh - 180px);
+  overflow-y: scroll;
+
+}
+
+.app-sidebar-note {
+  padding: 25px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.sidebar-note-title {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.app-sodenar-note small {
+  color: #999;
+}
+.app-sodenar-note p {
+  margin: 10px 0;
+}
+
+.app-sodenar-note:hover, .app-sidebar-note.active {
+  background-color: rgb(216 230 237);
+}
+
+.btn--logout {
+  border-radius: 16px;
+  padding: 16px;
+  font-weight: 600;
+  font-size: 16px;
+  width: 90%!important;
+  margin: 0 auto;
+  display: block;
+  background-color: #08c;
+  color: #fff;
+}
+
+.user-icon {
+  background-color: rgb(199, 214, 222);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  line-height: 1;
+  width:16px;
+  height: 16px;
+  font-size: 16px;
+  margin-right: 8px;
+}
