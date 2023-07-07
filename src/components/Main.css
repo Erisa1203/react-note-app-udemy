@@ -16,7 +16,6 @@
   border: 1px solid #ddd;
   margin-bottom: 20px;
   width: 100%;
-  height: calc(50vh- 130px);
   padding: 5px;
   resize: none;
   font-size: 16px;
@@ -27,6 +26,7 @@
 .app-main-note-edit textarea {
   margin: 0;
   flex: 1;
+  height: calc(50vh - 130px);
 }
 .app-main-note-edit {
   padding: 24px;
