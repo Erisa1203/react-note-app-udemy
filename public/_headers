@@ -1,2 +1,2 @@
 /*
-  Content-Security-Policy: script-src 'self' https://accounts.google.com/gsi/client; frame-src 'self' https://accounts.google.com/gsi/; connect-src 'self' https://accounts.google.com/gsi/;
+  Content-Security-Policy: script-src 'self' https://accounts.google.com https://apis.google.com; frame-src 'self' https://accounts.google.com; connect-src 'self' https://accounts.google.com;
