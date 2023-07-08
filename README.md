@@ -3,6 +3,15 @@ udemy講座のノートアプリをアレンジしてfirebaseと繋げてみま�
 
 https://react-note-app-udemy.vercel.app/
 
+###実装内容
+- googleでサインイン
+- email/passwordでサインイン
+- 会員登録
+- ログアウト
+- 自分が作ったノートのみ閲覧
+- ノートを編集するたびに保存
+
+
 
 # Getting Started with Create React App
 
